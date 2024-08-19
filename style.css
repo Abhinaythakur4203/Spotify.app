@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .container {
@@ -21,19 +22,19 @@
 }
 
 .left {
-    background-color: var(--content);
-    width: 30vw;
+    /* background-color: var(--content); */
+    width: 25vw;
     height: 99vh;
     color: var(--white);
-    padding: 5px;
+    /* padding: 5px */
 
 }
 
 .right {
     background-color: var(--content);
-    width: 70vw;
+    width: 75vw;
     height: 99vh;
-    padding: 5px;
+    padding: 7px;
 }
 
 .border {

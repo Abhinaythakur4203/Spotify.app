@@ -1,0 +1,38 @@
+:root {
+    --content: #303131;
+    --white: #ffffff;
+
+}
+
+.home {
+    background-color: var(--content);
+    height: 150px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 700;
+
+
+
+
+}
+
+span img {
+    height: 25px;
+    padding-left: 20px;
+   
+    filter: invert(1);
+
+}
+
+span{
+    display: flex;
+    
+    align-items: center;
+    gap: 15px;
+}
