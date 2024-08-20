@@ -1,5 +1,5 @@
 :root {
-    --content: #303131;
+    --content: #24232385;
     --white: #ffffff;
 
 }
@@ -9,6 +9,12 @@
     padding: 0;
     font-family: sans-serif;
 }
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
 
 .container {
     background-color: black;
@@ -27,14 +33,17 @@
     height: 99vh;
     color: var(--white);
     /* padding: 5px */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 
 }
 
 .right {
     background-color: var(--content);
     width: 75vw;
-    height: 99vh;
-    padding: 7px;
+    height: calc(100vh-5px);
+    padding: 5px;
 }
 
 .border {
