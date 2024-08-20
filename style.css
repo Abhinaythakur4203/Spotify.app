@@ -43,7 +43,7 @@ a{
     background-color: var(--content);
     width: 75vw;
     height: calc(100vh-5px);
-    padding: 5px;
+    
 }
 
 .border {

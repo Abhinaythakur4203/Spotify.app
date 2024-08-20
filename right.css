@@ -1,0 +1,28 @@
+:root {
+    --content: #24232385;
+    --white: #ffffff;
+
+}
+
+.nxt-pre button{
+
+    border: none;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0.788);
+    text-align: center;
+    /* overflow: hidden; */
+}
+
+.nav{
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid white; */
+    background-color: var(--content);
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    position:sticky;
+    
+}
