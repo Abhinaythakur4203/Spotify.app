@@ -47,3 +47,7 @@
      border: none;
      color: var(--text);
 }
+
+#login-btn:hover{
+    transform: scale(105%);
+}

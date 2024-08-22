@@ -53,3 +53,74 @@ a{
     border: none;
 
 }
+
+h3{
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.song-l{
+    padding: 20px 20px;
+}
+
+.card{
+    height: 230px;
+    width: 160px;
+    border-radius: 7px;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+
+    &:hover{
+        background-color:var(--content);
+    }
+}
+
+.pst-img{
+    height:150px;
+    width: 100%;
+    background-color: black;
+    border-radius: 7px;
+    overflow: hidden;
+    object-fit: contain;
+    
+    
+}
+h4{
+    color: var(--white);
+}
+
+.card > p{
+    font-size: 12px;
+    text-overflow: clip;
+}
+
+
+
+#play-sng{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(43, 182, 43);
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 10px;
+    bottom: 70px;
+    
+
+}
+#play-sng:hover{
+
+    transform: scale(105%);
+    
+}
